@@ -1,0 +1,29 @@
+[2025-06-18 03:52:27] [INFO] [IP: ::1] [URI: /18JUNI2025/index.php] Attempting database connection... 
+[2025-06-18 03:52:27] [INFO] [IP: ::1] [URI: /18JUNI2025/index.php] Database connected successfully {"host":"localhost","database":"18JUNI2025","connection_time":0.07805395126342773,"server_info":"10.4.32-MariaDB"}
+[2025-06-18 03:52:27] [INFO] [IP: ::1] [URI: /18JUNI2025/index.php] Database connection manager initialized successfully {"database":"18JUNI2025","host":"localhost","features":{"connection_pooling":true,"performance_monitoring":true,"query_caching":true,"ssl_enabled":false,"auto_reconnect":true,"transaction_support":true}}
+[2025-06-18 03:52:39] [INFO] [IP: ::1] [URI: /18JUNI2025/index.php] Attempting database connection... 
+[2025-06-18 03:52:39] [INFO] [IP: ::1] [URI: /18JUNI2025/index.php] Database connected successfully {"host":"localhost","database":"18JUNI2025","connection_time":0.003738880157470703,"server_info":"10.4.32-MariaDB"}
+[2025-06-18 03:52:39] [INFO] [IP: ::1] [URI: /18JUNI2025/index.php] Database connection manager initialized successfully {"database":"18JUNI2025","host":"localhost","features":{"connection_pooling":true,"performance_monitoring":true,"query_caching":true,"ssl_enabled":false,"auto_reconnect":true,"transaction_support":true}}
+[2025-06-18 03:52:47] [INFO] [IP: ::1] [URI: /18JUNI2025/index.php] Attempting database connection... 
+[2025-06-18 03:52:47] [INFO] [IP: ::1] [URI: /18JUNI2025/index.php] Database connected successfully {"host":"localhost","database":"18JUNI2025","connection_time":0.027827978134155273,"server_info":"10.4.32-MariaDB"}
+[2025-06-18 03:52:47] [INFO] [IP: ::1] [URI: /18JUNI2025/index.php] Database connection manager initialized successfully {"database":"18JUNI2025","host":"localhost","features":{"connection_pooling":true,"performance_monitoring":true,"query_caching":true,"ssl_enabled":false,"auto_reconnect":true,"transaction_support":true}}
+[2025-06-18 03:58:37] [INFO] [IP: ::1] [URI: /18JUNI2025/index.php] Attempting database connection... 
+[2025-06-18 03:58:37] [INFO] [IP: ::1] [URI: /18JUNI2025/index.php] Database connected successfully {"host":"localhost","database":"18JUNI2025","connection_time":0.004345893859863281,"server_info":"10.4.32-MariaDB"}
+[2025-06-18 03:58:37] [INFO] [IP: ::1] [URI: /18JUNI2025/index.php] Database connection manager initialized successfully {"database":"18JUNI2025","host":"localhost","features":{"connection_pooling":true,"performance_monitoring":true,"query_caching":true,"ssl_enabled":false,"auto_reconnect":true,"transaction_support":true}}
+[2025-06-18 03:58:46] [INFO] [IP: ::1] [URI: /18JUNI2025/index.php] Attempting database connection... 
+[2025-06-18 03:58:46] [INFO] [IP: ::1] [URI: /18JUNI2025/index.php] Database connected successfully {"host":"localhost","database":"18JUNI2025","connection_time":0.020135164260864258,"server_info":"10.4.32-MariaDB"}
+[2025-06-18 03:58:46] [INFO] [IP: ::1] [URI: /18JUNI2025/index.php] Database connection manager initialized successfully {"database":"18JUNI2025","host":"localhost","features":{"connection_pooling":true,"performance_monitoring":true,"query_caching":true,"ssl_enabled":false,"auto_reconnect":true,"transaction_support":true}}
+[2025-06-18 04:03:59] [INFO] [IP: ::1] [URI: /18JUNI2025/index.php] Attempting database connection... 
+[2025-06-18 04:03:59] [INFO] [IP: ::1] [URI: /18JUNI2025/index.php] Database connected successfully {"host":"localhost","database":"18JUNI2025","connection_time":0.0021500587463378906,"server_info":"10.4.32-MariaDB"}
+[2025-06-18 04:03:59] [INFO] [IP: ::1] [URI: /18JUNI2025/index.php] Database connection manager initialized successfully {"database":"18JUNI2025","host":"localhost","features":{"connection_pooling":true,"performance_monitoring":true,"query_caching":true,"ssl_enabled":false,"auto_reconnect":true,"transaction_support":true}}
+[2025-06-18 04:04:05] [INFO] [IP: ::1] [URI: /18JUNI2025/index.php] Attempting database connection... 
+[2025-06-18 04:04:05] [INFO] [IP: ::1] [URI: /18JUNI2025/index.php] Database connected successfully {"host":"localhost","database":"18JUNI2025","connection_time":0.0025358200073242188,"server_info":"10.4.32-MariaDB"}
+[2025-06-18 04:04:05] [INFO] [IP: ::1] [URI: /18JUNI2025/index.php] Database connection manager initialized successfully {"database":"18JUNI2025","host":"localhost","features":{"connection_pooling":true,"performance_monitoring":true,"query_caching":true,"ssl_enabled":false,"auto_reconnect":true,"transaction_support":true}}
+[2025-06-18 04:05:23] [INFO] [IP: ::1] [URI: /18JUNI2025/index.php] Attempting database connection... 
+[2025-06-18 04:05:23] [INFO] [IP: ::1] [URI: /18JUNI2025/index.php] Database connected successfully {"host":"localhost","database":"18JUNI2025","connection_time":0.026315927505493164,"server_info":"10.4.32-MariaDB"}
+[2025-06-18 04:05:23] [INFO] [IP: ::1] [URI: /18JUNI2025/index.php] Database connection manager initialized successfully {"database":"18JUNI2025","host":"localhost","features":{"connection_pooling":true,"performance_monitoring":true,"query_caching":true,"ssl_enabled":false,"auto_reconnect":true,"transaction_support":true}}
+[2025-06-18 04:05:29] [INFO] [IP: ::1] [URI: /18JUNI2025/index.php] Attempting database connection... 
+[2025-06-18 04:05:29] [INFO] [IP: ::1] [URI: /18JUNI2025/index.php] Database connected successfully {"host":"localhost","database":"18JUNI2025","connection_time":0.002405881881713867,"server_info":"10.4.32-MariaDB"}
+[2025-06-18 04:05:29] [INFO] [IP: ::1] [URI: /18JUNI2025/index.php] Database connection manager initialized successfully {"database":"18JUNI2025","host":"localhost","features":{"connection_pooling":true,"performance_monitoring":true,"query_caching":true,"ssl_enabled":false,"auto_reconnect":true,"transaction_support":true}}
+2025-06-18 04:07:28 - Connection failed: Unknown database 'login_system'
+2025-06-18 04:45:01 - Connection failed: Unknown database 'login_system'

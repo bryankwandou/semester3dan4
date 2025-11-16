@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<!-- saved from url=(0082)file:///E:/0(NOTEPAD++)/form%20pendaftaran%20ektp2%2015mei2025.html?provinsi=jabar -->
+<html lang="id"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Pendaftaran E-KTP</title>
+    <style>
+        body {
+            font-family: "Times New Roman", serif;
+            
+            background-image: url('img_2.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            padding: 20px;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #f2f2e9;
+            padding: 0;
+            border: 1px solid #ccc;
+        }
+        .form-header {
+            background-color: #2C3E50; /* Navy keabu-abuan */
+            color: #FFFFFF; /* Putih */
+            padding: 8px;
+            text-align: center;
+            font-size: 32px;
+            margin-bottom: 15px;
+            font-weight: bold;
+        }
+        .form-group {
+            margin-bottom: 12px;
+            display: flex;
+            align-items: flex-start;
+        }
+        .form-label {
+            width: 23%;
+            font-weight: normal;
+            padding-left: 15px;
+            color: #444;
+            font-style: "Times New Roman";
+            font-size: 16px;
+        }
+        .form-input {
+            width: 65%;
+        }
+        input[type="text"], 
+        input[type="email"],
+        input[type="date"],
+        select {
+            padding: 10px;
+            border: 1px solid #777;
+            box-sizing: border-box;
+            background-color: #f9f9f5;
+        }
+        .registration-number input {
+            width: 64px;
+            margin-right: 10px;
+            height: 30px;
+        }
+        .date-container {
+            display: flex;
+            gap: 25px;
+        }
+        .date-container input {
+            flex: 1;
+        }
+        .checkbox-group {
+            display: flex;
+            gap: 10px;
+            margin-top: 5px;
+        }
+        .checkbox-group label {
+            font-size: 15px;
+        }
+        .city-district {
+            display: flex;
+            gap: 15px;
+        }
+        .city-district input {
+            flex: 1;
+        }
+        .gender-group {
+            display: flex;
+            gap: 50px;
+            margin-top: 5px;
+        }
+        .gender-group input[type="radio"] {
+            transform: scale(1.2);
+            margin-right: 5px;
+        }
+        .button-group {
+            margin-top: 20px;
+            display: flex;
+            gap: 15px;
+            margin-left: 25%;
+        }
+        .button-group button {
+            padding: 5px 25px 10px;
+            cursor: pointer;
+            background-color: #e0e0d8;
+            border: 1px solid #999;
+            color: #333;
+        }
+        .popup-overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0,0,0,0.5);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 999;
+}
+
+    .popup-content {
+        background: #fff;
+        padding: 30px;
+        border-radius: 8px;
+        text-align: center;
+        width: 400px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+    .popup-buttons {
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-around;
+}
+    .popup-buttons button {
+        padding: 20px 20px;
+        cursor: pointer;
+        
+
+
+}
+
+    .theme-selector {
+        position: fixed;
+        bottom: 15px;
+        right: 20px;
+        background: rgba(255,255,255,0.9);
+        padding: 8px 12px;
+        border-radius: 8px;
+        box-shadow: 0 0 5px rgba(0,0,0,0.3);
+        font-family: "Times New Roman", serif;
+        font-size: 14px;
+        z-index: 999;
+        display: flex;
+        gap: 10px;
+        align-items: center;
+}
+
+    </style>
+</head>
+<body style="background-image: url(&quot;img_2.jpg&quot;);">
+    <div class="container" style="background-color: rgb(242, 242, 233); color: rgb(0, 0, 0);">
+        <div class="form-header">FORM PENDAFTARAN E-KTP</div>
+        
+        <form>
+            <div class="form-group">
+                <div class="form-label">Nomor Pendaftaran</div>
+                <div class="form-input registration-number">
+                    <input type="text" maxlength="4" required="">
+                    <input type="text" maxlength="4" required="">
+                    <input type="text" maxlength="4" required="">
+                    <input type="text" maxlength="4" required="">
+                    <input type="text" maxlength="4" required="">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="form-label">Nama</div>
+                <div class="form-input">
+                    <input type="text" placeholder="Nama Lengkap" required="">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="form-label">Tempat/Tanggal Lahir</div>
+                <div class="form-input date-container">
+                    <input type="text" placeholder="Kota, Provinsi, Negara" required="">
+                    <input type="date" placeholder="Tanggal - Bulan - Tahun" required="">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="form-label">Pekerjaan</div>
+                <div class="form-input">
+                    <select name="pekerjaan" required="">
+                        <option value="" disabled="" selected="">-- Pilih Pekerjaan --</option>
+                        <option value="pelajar">Pelajar/Mahasiswa</option>
+                        <option value="pns">Pegawai Negeri Sipil (PNS)</option>
+                        <option value="swasta">Karyawan Swasta</option>
+                        <option value="wirausaha">Wirausaha</option>
+                        <option value="petani">Petani</option>
+                        <option value="nelayan">Nelayan</option>
+                        <option value="buruh">Buruh</option>
+                        <option value="guru">Guru</option>
+                        <option value="dosen">Dosen</option>
+                        <option value="dokter">Dokter</option>
+                        <option value="perawat">Perawat</option>
+                        <option value="polisi">Polisi</option>
+                        <option value="tentara">Tentara</option>
+                        <option value="pengangguran">Belum Bekerja</option>
+                        <option value="lainnya">Lainnya</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="form-label">Status Pernikahan</div>
+                <div class="form-input radio-group" required="">
+                    <label><input type="radio" name="status_pernikahan" value="menikah"> Menikah</label>
+                    <label><input type="radio" name="status_pernikahan" value="belum_menikah"> Belum Menikah</label>
+                    <label><input type="radio" name="status_pernikahan" value="janda"> Janda</label>
+                    <label><input type="radio" name="status_pernikahan" value="duda"> Duda</label>
+                </div>
+            </div>
+            
+            <div class="form-group">
+                <div class="form-label">Alamat</div>
+                <div class="form-input">
+                    <input type="text" placeholder="Jalan, No., Kode Pos" required="">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="form-label">Agama</div>
+                <div class="form-input">
+                    <select name="agama" required="">
+                        <option value="" disabled="" selected="">-- Pilih Agama --</option>
+                        <option value="islam">Islam</option>
+                        <option value="kristen">Kristen</option>
+                        <option value="katolik">Katolik</option>
+                        <option value="hindu">Hindu</option>
+                        <option value="buddha">Buddha</option>
+                        <option value="konghucu">Konghucu</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="form-label">Email</div>
+                <div class="form-input">
+                    <input type="email" placeholder="Username@Domain.com" required="">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="form-label">Provinsi</div>
+                <div class="form-input">
+                    <select name="provinsi" required="">
+                        <option value="" disabled="" selected="">-- Pilih Provinsi --</option>
+                        <option value="aceh">Aceh</option>
+                        <option value="sumut">Sumatera Utara</option>
+                        <option value="sumbar">Sumatera Barat</option>
+                        <option value="riau">Riau</option>
+                        <option value="kepri">Kepulauan Riau</option>
+                        <option value="jambi">Jambi</option>
+                        <option value="bengkulu">Bengkulu</option>
+                        <option value="sumsel">Sumatera Selatan</option>
+                        <option value="babel">Kepulauan Bangka Belitung</option>
+                        <option value="lampung">Lampung</option>
+                        <option value="banten">Banten</option>
+                        <option value="jakarta">DKI Jakarta</option>
+                        <option value="jabar">Jawa Barat</option>
+                        <option value="jateng">Jawa Tengah</option>
+                        <option value="jogja">DI Yogyakarta</option>
+                        <option value="jatim">Jawa Timur</option>
+                        <option value="bali">Bali</option>
+                        <option value="ntb">Nusa Tenggara Barat</option>
+                        <option value="ntt">Nusa Tenggara Timur</option>
+                        <option value="kalbar">Kalimantan Barat</option>
+                        <option value="kalteng">Kalimantan Tengah</option>
+                        <option value="kalsel">Kalimantan Selatan</option>
+                        <option value="kaltim">Kalimantan Timur</option>
+                        <option value="kalut">Kalimantan Utara</option>
+                        <option value="sulut">Sulawesi Utara</option>
+                        <option value="sulteng">Sulawesi Tengah</option>
+                        <option value="sulsel">Sulawesi Selatan</option>
+                        <option value="sultra">Sulawesi Tenggara</option>
+                        <option value="gorontalo">Gorontalo</option>
+                        <option value="sulbar">Sulawesi Barat</option>
+                        <option value="maluku">Maluku</option>
+                        <option value="malut">Maluku Utara</option>
+                        <option value="papua">Papua</option>
+                        <option value="papuabarat">Papua Barat</option>
+                        <option value="papuaselatan">Papua Selatan</option>
+                        <option value="papuatengah">Papua Tengah</option>
+                        <option value="papuapegunungan">Papua Pegunungan</option>
+                        <option value="papuabaratutara">Papua Barat Daya</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="form-label">Kota</div>
+                <div class="form-input city-district">
+                    <input type="text" placeholder="Kota" required="">
+                    <input type="text" placeholder="Kecamatan" required="">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="form-label">Jenis Kelamin</div>
+                <div class="form-input gender-group" required="">
+                    <label><input type="radio" name="gender"> Pria</label>
+                    <label><input type="radio" name="gender"> Wanita</label>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="form-label">Golongan Darah</div>
+                <div class="form-input blood-type-group" required="">
+                    <label><input type="radio" name="gol_darah" value="A"> A</label>
+                    <label><input type="radio" name="gol_darah" value="B"> B</label>
+                    <label><input type="radio" name="gol_darah" value="AB"> AB</label>
+                    <label><input type="radio" name="gol_darah" value="O"> O</label>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="form-label">Rhesus</div>
+                <div class="form-input rhesus-group" required="">
+                    <label><input type="radio" name="rhesus" value="+"> Positif (+)</label>
+                    <label><input type="radio" name="rhesus" value="-"> Negatif (-)</label>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="form-label">Tanggal Pendaftaran</div>
+                <div class="form-input">
+                    <label for="tanggal"></label>
+                    <input type="date" id="tanggal" name="tanggal" required="">
+                </div>
+            </div>
+
+          
+            <div class="button-group">
+                <button type="submit">Daftar</button>
+                <button type="reset">Batal</button>
+                <button type="reset">Reset Semua</button>
+            </div>
+        </form>
+    </div>
+
+
+
+
+
+
+    <!-- Modal Pop-up -->
+    <div id="popupModal" style="display:none;" class="popup-overlay">
+        <div class="popup-content">
+            <h2>Konfirmasi Pendaftaran</h2>
+            <p>Apakah Anda yakin ingin mendaftar E-KTP dengan data yang telah diisi?</p>
+            <div class="popup-buttons">
+                <button onclick="submitForm()">Ya</button>
+                <button onclick="closePopup()">Tidak</button>
+                </div>
+        </div>
+    </div>
+
+
+    <!-- Popup Ringkasan Data -->
+    <div id="summaryModal" style="display:none;" class="popup-overlay">
+        <div class="popup-content">
+            <h2>Ringkasan Data Pendaftaran</h2>
+            <div id="summaryContent" style="text-align:left; font-size:15px;"></div>
+            <div class="popup-buttons">
+                <button onclick="showConfirm()">Lanjut</button>
+                <button onclick="closeSummary()">Kembali</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Popup Konfirmasi Akhir -->
+    <div id="popupModal" style="display:none;" class="popup-overlay">
+        <div class="popup-content">
+            <h2>Konfirmasi Pendaftaran</h2>
+            <p>Apakah Anda yakin ingin mendaftar E-KTP dengan data yang telah diisi?</p>
+            <div class="popup-buttons">
+                <button onclick="submitForm()">Ya</button>
+                <button onclick="closePopup()">Tidak</button>
+            </div>
+    </div>
+</div>
+
+
+
+
+
+
+    <div>
+        <div class="theme-selector">
+        <label for="theme"></label>
+        <select id="theme" onchange="changeTheme()">
+            <option value="default">Default</option>
+            <option value="#ffffff">Putih</option>
+            <option value="#f0f8ff">Biru Muda</option>
+            <option value="#e6ffe6">Hijau Muda</option>
+            <option value="#ffebcc">Oranye Muda</option>
+            <option value="#1e1e1e">Gelap</option>
+        </select>
+    </div>
+
+
+    <div class="theme-selector">
+        <label for="bgImage"></label>
+        <select id="bgImage" onchange="changeBackgroundImage()">
+            <option value="img_2.jpg">Gambar 1</option>
+            <option value="img_4.jpg">Gambar 2</option>
+            <option value="img_5.jpg">Gambar 3</option>
+            <option value="img_6.jpg">Gambar 4</option>
+        </select>
+
+        <select id="theme" onchange="changeTheme()">
+            <option value="#f2f2e9">Default</option>
+            <option value="#ffffff">Putih</option>
+            <option value="#f0f8ff">Biru Muda</option>
+            <option value="#e6ffe6">Hijau Muda</option>
+            <option value="#ffebcc">Oranye Muda</option>
+            <option value="#1e1e1e">Gelap</option>
+        </select>
+
+
+
+
+
+
+
+
+
+
+<script>
+    // Tangkap tombol submit
+    const form = document.querySelector("form");
+
+    form.addEventListener("submit", function(e) {
+        e.preventDefault(); // Cegah pengiriman langsung
+        document.getElementById("popupModal").style.display = "flex"; // Tampilkan pop-up
+    });
+
+    // Tombol Ya
+    function submitForm() {
+        form.submit(); // Kirim form setelah konfirmasi
+    }
+
+    // Tombol Tidak
+    function closePopup() {
+        document.getElementById("popupModal").style.display = "none"; // Sembunyikan pop-up
+    }
+
+
+
+
+
+
+
+    function changeTheme() {
+        const theme = document.getElementById("theme").value;
+        const container = document.querySelector(".container");
+        container.style.backgroundColor = theme;
+
+        // Ganti warna teks agar kontras di tema gelap
+        container.style.color = (theme === "#1e1e1e") ? "#ffffff" : "#000000";
+}
+
+
+
+
+
+
+    function changeBackgroundImage() {
+        const bg = document.getElementById("bgImage").value;
+
+        if (bg === "none") {
+            document.body.style.backgroundImage = "none";
+        } else {
+            document.body.style.backgroundImage = `url('${bg}')`;
+        }
+
+        // Reset warna background agar tidak bertabrakan
+        document.body.style.backgroundColor = "";
+        document.getElementById("theme").value = "default";
+}
+
+    function changeTheme() {
+        const theme = document.getElementById("theme").value;
+        const container = document.querySelector(".container");
+
+        if (theme === "default") {
+            container.style.backgroundColor = "#f2f2e9";
+            container.style.color = "#000000";
+        } else {
+            container.style.backgroundColor = theme;
+            container.style.color = (theme === "#1e1e1e") ? "#ffffff" : "#000000";
+        }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div></div></body></html>

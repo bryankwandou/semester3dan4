@@ -1,0 +1,144 @@
+/* New Footer Area Styles */
+.new-footer-area {
+    background-color: #333; /* Dark background for the footer */
+    color: #fff; /* White text color */
+    padding: 40px 0; /* Vertical padding */
+    position: relative; /* Needed for absolute positioning of cut effect */
+    overflow: hidden; /* Hide anything that goes outside */
+}
+
+.new-footer-area .container {
+    position: relative;
+    z-index: 1; /* Ensure content is above the cut effect */
+}
+
+.footer-content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Vertically align items in the middle */
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+    gap: 30px; /* Space between left, center, and right sections */
+}
+
+.footer-left,
+.footer-right {
+    flex: 1; /* Allow these sections to grow and shrink */
+    min-width: 300px; /* Minimum width before wrapping */
+}
+
+.footer-left {
+    text-align: left;
+}
+
+.footer-social-links {
+    display: flex;
+    flex-direction: column; /* Stack social links vertically */
+    gap: 15px; /* Space between social links */
+}
+
+.footer-social-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    display: flex; /* Align icon and text */
+    align-items: center;
+    transition: color 0.3s ease;
+}
+
+.footer-social-links a:hover {
+    color: #D62828; /* Highlight on hover */
+}
+
+.footer-social-links img {
+    width: 24px; /* Size of social media icons */
+    height: 24px;
+    margin-right: 10px; /* Space between icon and text */
+}
+
+.footer-right {
+    text-align: right;
+}
+
+.footer-info h5 {
+    color: #D62828; /* Accent color for heading */
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.footer-info p {
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.footer-info p:last-child {
+    margin-bottom: 0;
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+/* The "Cut in the Middle" Effect - MODIFIED to be a thin black line */
+.footer-center-cut {
+    position: absolute;
+    top: 50%; /* Posisikan di tengah vertikal */
+    left: 50%; /* Posisikan di tengah horizontal */
+    transform: translate(-50%, -50%); /* Geser agar benar-benar di tengah */
+    width: 2px; /* Lebar garis tipis */
+    height: 200%; /* Tinggi garis, bisa disesuaikan */
+    background-color: #000; /* Warna hitam untuk garis */
+    z-index: 0; /* Pastikan di belakang konten */
+
+    /* Hilangkan clip-path karena kita tidak lagi membuat bentuk kompleks */
+    clip-path: none;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .footer-content-wrapper {
+        flex-direction: column; /* Stack items vertically on smaller screens */
+        text-align: center;
+    }
+
+    .footer-left,
+    .footer-right {
+        min-width: unset; /* Remove min-width to allow full flexibility */
+        width: 100%; /* Take full width */
+        text-align: center; /* Center text */
+    }
+
+    .footer-social-links {
+        flex-direction: row; /* Keep social links in a row if space allows */
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    .footer-center-cut {
+        width: 100%; /* Make the cut span full width */
+        height: 1px; /* Make it a very thin horizontal line */
+        top: 50%;
+        transform: translateY(-50%);
+        background-color: #555; /* A simpler divider color for mobile */
+    }
+
+    .footer-info {
+        margin-top: 20px; /* Add space between social links and info on mobile */
+    }
+}
+
+@media (max-width: 480px) {
+    .new-footer-area {
+        padding: 30px 0;
+    }
+
+    .footer-social-links a {
+        font-size: 16px;
+    }
+
+    .footer-info h5 {
+        font-size: 18px;
+    }
+
+    .footer-info p {
+        font-size: 14px;
+    }
+}

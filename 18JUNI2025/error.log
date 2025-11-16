@@ -1,0 +1,104 @@
+[18-Jun-2025 06:09:01 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "MYSQLI_OPT_WRITE_TIMEOUT" in C:\xampp\htdocs\18JUNI2025\koneksi.php:109
+Stack trace:
+#0 C:\xampp\htdocs\18JUNI2025\koneksi.php(73): DatabaseManager->connect()
+#1 C:\xampp\htdocs\18JUNI2025\koneksi.php(78): DatabaseManager->__construct()
+#2 C:\xampp\htdocs\18JUNI2025\koneksi.php(391): DatabaseManager::getInstance()
+#3 C:\xampp\htdocs\18JUNI2025\index.php(2): include('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\18JUNI2025\koneksi.php on line 109
+[18-Jun-2025 06:09:08 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "MYSQLI_OPT_WRITE_TIMEOUT" in C:\xampp\htdocs\18JUNI2025\koneksi.php:109
+Stack trace:
+#0 C:\xampp\htdocs\18JUNI2025\koneksi.php(73): DatabaseManager->connect()
+#1 C:\xampp\htdocs\18JUNI2025\koneksi.php(78): DatabaseManager->__construct()
+#2 C:\xampp\htdocs\18JUNI2025\koneksi.php(391): DatabaseManager::getInstance()
+#3 C:\xampp\htdocs\18JUNI2025\index.php(2): include('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\18JUNI2025\koneksi.php on line 109
+[18-Jun-2025 06:09:14 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "MYSQLI_OPT_WRITE_TIMEOUT" in C:\xampp\htdocs\18JUNI2025\koneksi.php:109
+Stack trace:
+#0 C:\xampp\htdocs\18JUNI2025\koneksi.php(73): DatabaseManager->connect()
+#1 C:\xampp\htdocs\18JUNI2025\koneksi.php(78): DatabaseManager->__construct()
+#2 C:\xampp\htdocs\18JUNI2025\koneksi.php(391): DatabaseManager::getInstance()
+#3 C:\xampp\htdocs\18JUNI2025\index.php(2): include('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\18JUNI2025\koneksi.php on line 109
+[18-Jun-2025 06:09:15 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "MYSQLI_OPT_WRITE_TIMEOUT" in C:\xampp\htdocs\18JUNI2025\koneksi.php:109
+Stack trace:
+#0 C:\xampp\htdocs\18JUNI2025\koneksi.php(73): DatabaseManager->connect()
+#1 C:\xampp\htdocs\18JUNI2025\koneksi.php(78): DatabaseManager->__construct()
+#2 C:\xampp\htdocs\18JUNI2025\koneksi.php(391): DatabaseManager::getInstance()
+#3 C:\xampp\htdocs\18JUNI2025\index.php(2): include('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\18JUNI2025\koneksi.php on line 109
+[18-Jun-2025 06:09:30 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "MYSQLI_OPT_WRITE_TIMEOUT" in C:\xampp\htdocs\18JUNI2025\koneksi.php:109
+Stack trace:
+#0 C:\xampp\htdocs\18JUNI2025\koneksi.php(73): DatabaseManager->connect()
+#1 C:\xampp\htdocs\18JUNI2025\koneksi.php(78): DatabaseManager->__construct()
+#2 C:\xampp\htdocs\18JUNI2025\koneksi.php(391): DatabaseManager::getInstance()
+#3 C:\xampp\htdocs\18JUNI2025\index1.php(2): include('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\18JUNI2025\koneksi.php on line 109
+[18-Jun-2025 06:09:32 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "MYSQLI_OPT_WRITE_TIMEOUT" in C:\xampp\htdocs\18JUNI2025\koneksi.php:109
+Stack trace:
+#0 C:\xampp\htdocs\18JUNI2025\koneksi.php(73): DatabaseManager->connect()
+#1 C:\xampp\htdocs\18JUNI2025\koneksi.php(78): DatabaseManager->__construct()
+#2 C:\xampp\htdocs\18JUNI2025\koneksi.php(391): DatabaseManager::getInstance()
+#3 C:\xampp\htdocs\18JUNI2025\index1.php(2): include('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\18JUNI2025\koneksi.php on line 109
+[18-Jun-2025 06:09:33 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "MYSQLI_OPT_WRITE_TIMEOUT" in C:\xampp\htdocs\18JUNI2025\koneksi.php:109
+Stack trace:
+#0 C:\xampp\htdocs\18JUNI2025\koneksi.php(73): DatabaseManager->connect()
+#1 C:\xampp\htdocs\18JUNI2025\koneksi.php(78): DatabaseManager->__construct()
+#2 C:\xampp\htdocs\18JUNI2025\koneksi.php(391): DatabaseManager::getInstance()
+#3 C:\xampp\htdocs\18JUNI2025\index1.php(2): include('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\18JUNI2025\koneksi.php on line 109
+[18-Jun-2025 06:09:33 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "MYSQLI_OPT_WRITE_TIMEOUT" in C:\xampp\htdocs\18JUNI2025\koneksi.php:109
+Stack trace:
+#0 C:\xampp\htdocs\18JUNI2025\koneksi.php(73): DatabaseManager->connect()
+#1 C:\xampp\htdocs\18JUNI2025\koneksi.php(78): DatabaseManager->__construct()
+#2 C:\xampp\htdocs\18JUNI2025\koneksi.php(391): DatabaseManager::getInstance()
+#3 C:\xampp\htdocs\18JUNI2025\index1.php(2): include('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\18JUNI2025\koneksi.php on line 109
+[18-Jun-2025 06:09:33 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "MYSQLI_OPT_WRITE_TIMEOUT" in C:\xampp\htdocs\18JUNI2025\koneksi.php:109
+Stack trace:
+#0 C:\xampp\htdocs\18JUNI2025\koneksi.php(73): DatabaseManager->connect()
+#1 C:\xampp\htdocs\18JUNI2025\koneksi.php(78): DatabaseManager->__construct()
+#2 C:\xampp\htdocs\18JUNI2025\koneksi.php(391): DatabaseManager::getInstance()
+#3 C:\xampp\htdocs\18JUNI2025\index1.php(2): include('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\18JUNI2025\koneksi.php on line 109
+[18-Jun-2025 06:09:52 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "MYSQLI_OPT_WRITE_TIMEOUT" in C:\xampp\htdocs\18JUNI2025\koneksi.php:109
+Stack trace:
+#0 C:\xampp\htdocs\18JUNI2025\koneksi.php(73): DatabaseManager->connect()
+#1 C:\xampp\htdocs\18JUNI2025\koneksi.php(78): DatabaseManager->__construct()
+#2 C:\xampp\htdocs\18JUNI2025\koneksi.php(391): DatabaseManager::getInstance()
+#3 C:\xampp\htdocs\18JUNI2025\index1.php(2): include('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\18JUNI2025\koneksi.php on line 109
+[18-Jun-2025 06:09:52 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "MYSQLI_OPT_WRITE_TIMEOUT" in C:\xampp\htdocs\18JUNI2025\koneksi.php:109
+Stack trace:
+#0 C:\xampp\htdocs\18JUNI2025\koneksi.php(73): DatabaseManager->connect()
+#1 C:\xampp\htdocs\18JUNI2025\koneksi.php(78): DatabaseManager->__construct()
+#2 C:\xampp\htdocs\18JUNI2025\koneksi.php(391): DatabaseManager::getInstance()
+#3 C:\xampp\htdocs\18JUNI2025\index1.php(2): include('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\18JUNI2025\koneksi.php on line 109
+[18-Jun-2025 06:09:53 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "MYSQLI_OPT_WRITE_TIMEOUT" in C:\xampp\htdocs\18JUNI2025\koneksi.php:109
+Stack trace:
+#0 C:\xampp\htdocs\18JUNI2025\koneksi.php(73): DatabaseManager->connect()
+#1 C:\xampp\htdocs\18JUNI2025\koneksi.php(78): DatabaseManager->__construct()
+#2 C:\xampp\htdocs\18JUNI2025\koneksi.php(391): DatabaseManager::getInstance()
+#3 C:\xampp\htdocs\18JUNI2025\index1.php(2): include('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\18JUNI2025\koneksi.php on line 109
+[18-Jun-2025 06:09:53 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "MYSQLI_OPT_WRITE_TIMEOUT" in C:\xampp\htdocs\18JUNI2025\koneksi.php:109
+Stack trace:
+#0 C:\xampp\htdocs\18JUNI2025\koneksi.php(73): DatabaseManager->connect()
+#1 C:\xampp\htdocs\18JUNI2025\koneksi.php(78): DatabaseManager->__construct()
+#2 C:\xampp\htdocs\18JUNI2025\koneksi.php(391): DatabaseManager::getInstance()
+#3 C:\xampp\htdocs\18JUNI2025\index1.php(2): include('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\18JUNI2025\koneksi.php on line 109

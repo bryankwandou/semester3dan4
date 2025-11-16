@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Login</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f0f4f8;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .login-box {
+      background: white;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+      width: 300px;
+    }
+    .login-box h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #333;
+    }
+    .login-box input[type="text"],
+    .login-box input[type="password"] {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    .login-box label {
+      font-size: 0.9em;
+      color: #555;
+    }
+    .login-box input[type="submit"] {
+      width: 100%;
+      padding: 10px;
+      background: #007bff;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .login-box input[type="submit"]:hover {
+      background: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <div class="login-box">
+    <h2>Form Login</h2>
+    <form action="login.php" method="post">
+      <input type="text" name="username" placeholder="Username" required>
+      <input type="password" name="password" placeholder="Password" required>
+      <label>
+        <input type="checkbox" name="remember"> Ingat saya
+      </label>
+      <br><br>
+      <input type="submit" value="Login">
+    </form>
+  </div>
+</body>
+</html>
