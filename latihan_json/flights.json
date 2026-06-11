@@ -1,0 +1,52 @@
+{
+    "flight": [
+        {
+            "ID": "AA-101",
+            "from": "Jakarta (CGK)",
+            "to": "Bali (DPS)",
+            "depart": "08:00",
+            "arrive": "10:50",
+            "price": "1250000"
+        },
+        {
+            "ID": "AA-102",
+            "from": "Surabaya (SUB)",
+            "to": "Jakarta (CGK)",
+            "depart": "13:15",
+            "arrive": "14:45",
+            "price": "850000"
+        },
+        {
+            "ID": "BB-201",
+            "from": "Jakarta (CGK)",
+            "to": "Singapore (SIN)",
+            "depart": "09:30",
+            "arrive": "12:20",
+            "price": "1500000"
+        },
+        {
+            "ID": "BB-202",
+            "from": "Medan (KNO)",
+            "to": "Kuala Lumpur (KUL)",
+            "depart": "16:00",
+            "arrive": "17:00",
+            "price": "1100000"
+        },
+        {
+            "ID": "CC-301",
+            "from": "Jakarta (CGK)",
+            "to": "Yogyakarta (YIA)",
+            "depart": "06:00",
+            "arrive": "07:10",
+            "price": "750000"
+        },
+        {
+            "ID": "CC-302",
+            "from": "Bali (DPS)",
+            "to": "Surabaya (SUB)",
+            "depart": "19:45",
+            "arrive": "20:40",
+            "price": "600000"
+        }
+    ]
+}
